@@ -12,9 +12,6 @@ function AddData() {
     const [showSimpan, setShowSimpan] = useState(false); const dispatch = useDispatch();
     
     const numbers = [1, 2, 3, 4]
-    // const handleSimpanData = (e) => {
-    //     e.preventDefault();
-    // };
     const handleSimpanData = () => {
         const output = {};
         for (let i = 0; i < 4; i++) {

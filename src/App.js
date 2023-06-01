@@ -9,7 +9,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/add" element={<AddData />} />
         <Route path="/list" element={<DataList />} />
       </Routes>
     </Router>
